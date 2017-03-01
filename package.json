@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/metalshan/js-starterkit#readme",
   "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-react": "^6.10.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
