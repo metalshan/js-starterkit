@@ -8,8 +8,9 @@ module.exports={
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: ["eslint-loader"],
+                loaders: ["eslint-loader", "babel-loader"],
             }
         ]
-    }
-}
+    },
+    devtool: "inline-source-map"
+};

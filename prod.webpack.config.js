@@ -5,6 +5,7 @@ var prodConfig = devConfig;
 prodConfig.output = {
     path: "dist",
     filename: "bundle.js"
-}
+};
+delete prodConfig.devtool;
 
 module.exports = prodConfig;

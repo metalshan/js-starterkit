@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/metalshan/js-starterkit#readme",
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
     "eslint": "^3.16.1",
     "eslint-loader": "^1.6.3",
     "eslint-plugin-react": "^6.10.0",
