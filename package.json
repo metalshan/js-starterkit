@@ -1,0 +1,22 @@
+{
+  "name": "js-starterkit",
+  "version": "0.0.0",
+  "description": "A starter kit for javascript projects with bundling, linting, githooks and many more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalshan/js-starterkit.git"
+  },
+  "author": "Paul Shan <paul@voidcanvas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalshan/js-starterkit/issues"
+  },
+  "homepage": "https://github.com/metalshan/js-starterkit#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
