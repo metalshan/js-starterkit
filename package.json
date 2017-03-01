@@ -7,8 +7,11 @@
     "build": "webpack --config prod.webpack.config.js -p",
     "postbuild": "cp index.html ./dist/index.html",
     "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/metalshan/js-starterkit.git"
@@ -23,6 +26,7 @@
     "eslint": "^3.16.1",
     "eslint-loader": "^1.6.3",
     "eslint-plugin-react": "^6.10.0",
+    "pre-commit": "^1.2.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
