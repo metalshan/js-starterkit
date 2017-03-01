@@ -4,6 +4,9 @@
   "description": "A starter kit for javascript projects with bundling, linting, githooks and many more",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config prod.webpack.config.js -p",
+    "postbuild": "cp index.html ./dist/index.html",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/metalshan/js-starterkit#readme",
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
