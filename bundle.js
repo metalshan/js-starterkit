@@ -79,9 +79,9 @@ console.log("I am test.js")
 
 module.exports = {
     testMe: function(){
-        console.log("I am test2.js")
+        console.log("I am test2.js");
     }
-}
+};
 
 
 /***/ }),

@@ -7,7 +7,7 @@
     "build": "webpack --config prod.webpack.config.js -p",
     "postbuild": "cp index.html ./dist/index.html",
     "start": "webpack-dev-server",
-    "test": "eslint ."
+    "test": "webpack"
   },
   "pre-commit": [
     "test"
