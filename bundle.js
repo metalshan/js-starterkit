@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-console.log("I am test.js")
+console.log("I am test.js");
 
 
 /***/ }),
